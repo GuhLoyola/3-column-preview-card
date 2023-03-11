@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+html {
+    font-size: 13px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.car-types {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 220px;
+    flex-wrap: wrap;
+    padding: 15px 30px;
+}
+
+.car-types img {
+    width: 35%;
+    padding-bottom: 30px;
+}
+
+.car-types.orange {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 5px 0px 0px 5px;
+}
+
+.car-types.cyan {
+    background-color: hsl(184, 100%, 22%);
+    border-radius: 0px;
+}
+
+.car-types.dark-cyan {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 5px 5px 0px;
+}
+
+.titulo {
+    color: #ffffff;
+    font-family: 'Big Shoulders Display', serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 17px;
+}
+
+.txt, .btn {
+    font-family: 'Lexend Deca',serif ;
+}
+
+.txt {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 300;
+    padding-bottom: 50px;
+}
+
+.btn {
+    border-radius: 25px;
+    border: solid hsl(0, 0%, 95%);
+    padding: 10px 0px;
+    margin-bottom: 15px;
+    background-color: hsl(0, 0%, 95%);
+    width: 120px;
+}
+
+.orange .btn {
+    color: hsl(31, 77%, 52%);
+}
+
+.btn:hover {
+    transition: ease-in-out 0.3s;
+}
+
+.orange .btn:hover {
+    color: #ffffff;
+    cursor: pointer;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.cyan .btn {
+    color: hsl(184, 100%, 22%);
+}
+
+.cyan .btn:hover {
+    color: #ffffff;
+    cursor: pointer;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.dark-cyan .btn {
+    color: hsl(179, 100%, 13%);
+}
+
+.dark-cyan .btn:hover {
+    color: #ffffff;
+    cursor: pointer;
+    background-color: hsl(179, 100%, 13%);
+}
