@@ -4,6 +4,10 @@ html {
     font-size: 13px;
 }
 
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
 .container {
     display: flex;
     justify-content: center;
